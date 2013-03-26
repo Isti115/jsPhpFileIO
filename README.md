@@ -1,15 +1,12 @@
-jsPhpFileIO
-===========
+# jsPhpFileIO
 
 This is some kind of a js-php framework
 which allowes you to read and write files
 from javascript with no php knowledge.
 
-##########
+## The three functions:
 
-The three functions:
-
-->fileWrite:
+### fileWrite:
 
 it has two parameters:
 -(string) name of file
@@ -23,9 +20,7 @@ var confirmation = fileWrite("somefile.txt", "Some text to write");
 in case of success confirmation would contain:
 'Some text to write' written into 'somefile.txt'
 
-----------
-
-->fileAppend:
+### fileAppend:
 
 it has two parameters:
 -(string) name of file
@@ -39,9 +34,7 @@ var confirmation = fileWrite("somefile.txt", "\r\nSome more text to append");
 in case of success confirmation would contain:
 'Some text to write' written into 'somefile.txt'
 
-----------
-
-->fileRead:
+### fileRead:
 
 it has one parameter:
 -(string) name of file to read
